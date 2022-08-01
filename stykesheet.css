@@ -1,0 +1,41 @@
+body {
+      font-family: "Dancing Script", sans-serif;
+      color: rgb(254, 254, 254);
+      font-size: large;
+      line-height: normal;
+      text-align: center;
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+  }
+
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+
+}
+
+#banner {
+
+  border-radius: 5px;
+  margin: auto;
+}
+
+h2 {
+  color: rgb(2, 2, 2);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 10%;
+}
+
+a:hover {
+  color: aliceblue;
+  text-decoration-color: chartreuse;
+  background-color: blueviolet;
+}
